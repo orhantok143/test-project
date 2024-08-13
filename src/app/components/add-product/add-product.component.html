@@ -1,0 +1,20 @@
+<form [formGroup]="productForm" (ngSubmit)="addProduct()">
+    <div>
+      <label>Name</label>
+      <input formControlName="name" />
+    </div>
+    <div>
+      <label>Description</label>
+      <input formControlName="description" />
+    </div>
+    <div>
+      <label>Image URL</label>
+      <input formControlName="imageUrl" />
+    </div>
+    <div>
+      <label>Price</label>
+      <input formControlName="price" type="number" />
+    </div>
+    <button type="submit">Add Product</button>
+  </form>
+  

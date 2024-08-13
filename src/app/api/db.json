@@ -1,0 +1,24 @@
+{
+    "products": [
+      {
+        "id": "f010",
+        "name": "domates",
+        "imageUrl": "https://adrossen.com/wp-content/uploads/2022/12/adrossen-katalog-fotolar_raptor-scaled.jpg",
+        "description": "domates",
+        "price": 100
+      }
+    ],
+    "cart": [
+      {
+        "id": "90b6",
+        "product": {
+          "id": "f010",
+          "name": "domates",
+          "imageUrl": "https://adrossen.com/wp-content/uploads/2022/12/adrossen-katalog-fotolar_raptor-scaled.jpg",
+          "description": "domates",
+          "price": 100
+        },
+        "quantity": 1
+      }
+    ]
+  }
